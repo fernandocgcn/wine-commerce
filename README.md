@@ -1,6 +1,6 @@
 # Wine Commerce
 
-Exemplo de uma API RESTful para uma loja de vinhos, que ao longo dos anos, guardou dados de seus clientes e um histórico de compras (disponibilizados também por uma API)  
+Exemplo de uma API RESTful para uma loja de vinhos, que ao longo dos anos, guardou dados de seus clientes e um histórico de compras (disponibilizados também por uma API)    
 Funcionalidades:
 * 1 - Liste os clientes ordenados pelo maior valor total em compras.
 * 2 - Mostre o cliente com maior compra única no último ano (2016).
