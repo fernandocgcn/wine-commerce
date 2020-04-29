@@ -1,0 +1,7 @@
+
+src/.vs
+misc/ComponentDiagram.drawio
+src/WCDomain/bin
+src/WCDomain/obj
+src/WCApiRest/bin
+src/WCApiRest/obj
