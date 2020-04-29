@@ -3,5 +3,8 @@ src/.vs
 misc/ComponentDiagram.drawio
 src/WCDomain/bin
 src/WCDomain/obj
+src/WCDomainTests/bin
+src/WCDomainTests/obj
 src/WCApiRest/bin
 src/WCApiRest/obj
+src/TestResults

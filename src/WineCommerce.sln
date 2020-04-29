@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCDomain", "WCDomain\WCDomain.csproj", "{AABCC47E-D87D-440A-9653-25B8E2D92325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCApiRest", "WCApiRest\WCApiRest.csproj", "{220B5761-94F2-4C67-8133-1E0AD6486E2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCApiRest", "WCApiRest\WCApiRest.csproj", "{220B5761-94F2-4C67-8133-1E0AD6486E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCDomainTests", "WCDomainTests\WCDomainTests.csproj", "{7DAC80DC-53DF-4B72-9C7C-06859C63E7F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{220B5761-94F2-4C67-8133-1E0AD6486E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{220B5761-94F2-4C67-8133-1E0AD6486E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{220B5761-94F2-4C67-8133-1E0AD6486E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAC80DC-53DF-4B72-9C7C-06859C63E7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAC80DC-53DF-4B72-9C7C-06859C63E7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAC80DC-53DF-4B72-9C7C-06859C63E7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAC80DC-53DF-4B72-9C7C-06859C63E7F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

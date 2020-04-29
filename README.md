@@ -1,11 +1,12 @@
 # Wine Commerce
 
-Exemplo de uma API RESTful para uma loja de vinhos, que ao longo dos anos, guardou dados de seus clientes e um histórico de compras (disponibilizados também por uma API)    
+Exemplo de uma API RESTful para uma loja de vinhos, que ao longo dos anos, guardou dados de seus clientes e um histórico de compras (disponibilizados também por uma API)  
+  
 Funcionalidades:
-* 1 - Liste os clientes ordenados pelo maior valor total em compras.
-* 2 - Mostre o cliente com maior compra única no último ano (2016).
-* 3 - Liste os clientes mais fiéis.
-* 4 - Recomende um vinho para um determinado cliente a partir do histórico de compras.
+* 1 - Lista os clientes ordenados pelo maior valor total em compras
+* 2 - Mostra o cliente com maior compra única em um ano
+* 3 - Lista os clientes mais fiéis
+* 4 - Recomenda um vinho para um determinado cliente a partir do histórico de compras
 
 ![](/misc/ClassModel.png)
 
@@ -16,6 +17,7 @@ Funcionalidades:
 ### Back-End (C# - .NET Core)
 
 * src/WFDomain - Biblioteca do Domínio, Lógica do Negócio e Modelo de Dados do Projeto (baseado nos JSONs retornados)
+* src/WFDomainTests - Testes Unitários (MSTest) dos Serviços do Domínio e Lógica do Negócio do Projeto
 
 ### Front-End (C# - .NET Core - API RESTful)
 

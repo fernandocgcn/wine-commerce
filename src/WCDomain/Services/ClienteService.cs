@@ -53,7 +53,10 @@ namespace WCDomain.Services
         public dynamic GetClienteMaiorCompraUnica(int ano)
         {
             var compra = _compras?.Where(compra => compra.Data.Year == ano)?.FirstOrDefault();
-            return new { cliente = compra?.Cliente, valorTotalCompra = compra?.ValorTotal };
+            dynamic obj = new ExpandoObject();
+            obj.cliente = compra?.Cliente;
+            obj.valorTotalCompra = compra?.ValorTotal;
+            return obj;
         }
 
         public Item GetVinhoRecomendado(int idCliente)
